@@ -6,8 +6,8 @@
 
     <groupId>io.github.internetms52</groupId>
     <artifactId>leetcode-validation</artifactId>
-    <version>0.1.3</version>
-    <name>object-pool</name>
+    <version>0.1.0</version>
+    <name>leetcode-validation</name>
     <packaging>jar</packaging>
     <url>https://github.com/internetms52/leetcode-validation</url>
     <description>leetcode-validation</description>

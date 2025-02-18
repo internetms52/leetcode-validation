@@ -1,2 +1,3 @@
-# leetcode-validation
-leetcode-validation
+# LeetCode Validation Library
+[Document](/maven-lib/README.md)
+

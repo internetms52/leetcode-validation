@@ -5,6 +5,12 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * A utility class that provides method for check mutual containment between sets.
+ *
+ * @author Eugene Lu.
+ * @version 1.0
+ */
 public class ListOfIntegerLists {
     private static final Comparator<List<Integer>> listComparator = (list1, list2) -> {
         if (list1.size() != list2.size()) {

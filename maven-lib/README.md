@@ -4,7 +4,6 @@ mvn clean install
 ``
 mvn clean deploy
 ``
-
 ## Maven
 To use this library in your Maven project, add the following dependency to your `pom.xml`:
 ```xml

@@ -32,7 +32,7 @@ public class ListOfIntegerLists {
         return aSet.equals(bSet);
     }
 
-    public static boolean isMutualContainment(List<List<Integer>> resultList, List<List<Integer>> targetList) {
+    public static boolean areEquivalent(List<List<Integer>> resultList, List<List<Integer>> targetList) {
         if (resultList.size() != targetList.size()) {
             return false;
         } else {
@@ -49,5 +49,9 @@ public class ListOfIntegerLists {
             }
         }
         return true;
+    }
+    @Deprecated
+    public static boolean isMutualContainment(List<List<Integer>> resultList, List<List<Integer>> targetList) {
+        return areEquivalent(resultList, targetList);
     }
 }

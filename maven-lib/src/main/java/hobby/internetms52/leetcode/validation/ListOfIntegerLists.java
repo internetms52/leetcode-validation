@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * A utility class that provides method for check mutual containment between sets.
+ * A utility class that provides method for check mutual containment between lists.
  *
  * @author Eugene Lu.
  * @version 1.0

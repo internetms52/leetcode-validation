@@ -1,7 +1,7 @@
 package hobby.internetms52.leetcode.definition;
 
 public class ListNode implements Comparable<ListNode> {
-    int val;
+    public int val;
     public ListNode next;
 
     ListNode() {
